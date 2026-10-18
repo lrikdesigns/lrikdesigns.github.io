@@ -27,7 +27,7 @@ There is no build step.
 The website files live in `docs/`, so serve that directory, not the repo root:
 
 ```sh
-python3 -m http.server --directory docs
+uv run python -m http.server --directory docs
 ```
 
 Run it from the repo root, open http://localhost:8000/, and check widths of 320 px, 768 px and

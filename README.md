@@ -16,5 +16,5 @@ The website files live in `docs/`. To preview locally, serve that directory from
 root and open <http://localhost:8000/>:
 
 ```sh
-python3 -m http.server --directory docs
+uv run python -m http.server --directory docs
 ```
